@@ -1,6 +1,0 @@
-[root@rhel9dev yamlfiles]# kubectl get svc -A
-NAMESPACE        NAME              TYPE           CLUSTER-IP       EXTERNAL-IP     PORT(S)                  AGE
-airportnames     lb-airportnames   LoadBalancer   10.245.22.250    45.55.122.121   80:31781/TCP             6m42s
-default          kubernetes        ClusterIP      10.245.0.1       <none>          443/TCP                  2d23h
-kube-system      kube-dns          ClusterIP      10.245.0.10      <none>          53/UDP,53/TCP,9153/TCP   2d23h
-metrics-server   metrics-server    ClusterIP      10.245.165.121   <none>          443/TCP                  2d2h
